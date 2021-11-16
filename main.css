@@ -1,0 +1,208 @@
+* 
+body {
+    font-size: 16px;
+    letter-spacing: 0.1rem;
+    background-color: #090e03;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin: 0;
+  }
+  
+  .navbar {
+    min-height: 50px;
+    font-weight: bold;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    margin: 0;
+    position: sticky;
+    /* top: 0; */
+    background-color: #0c0e0b;
+    z-index: 1;
+    box-shadow: #060706 0 0 5px 0;
+  }
+  
+  .navbar-toggler {
+    border-color: transparent;
+    display: none;
+    margin-right: 0;
+  }
+  
+  .hero {
+    font-size: 1.25rem;
+    min-height: 300px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .hero > .col {
+    max-width: 560px;
+  }
+  
+  .btn {
+    height: 25px;
+    color: rgb(93, 7, 204);
+    background-color: #0bd6fa;
+    vertical-align: center;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .navbar-collapse a {
+    padding: 5px;
+  }
+  
+  .bordered {
+    border: #3d0026 1px solid;
+    padding: 0.2rem;
+    text-align: center;
+  }
+  
+  .table-responsive {
+    overflow-x: scroll;
+  }
+  
+  .table-bordered {
+    border: #0dc1f8 1px solid;
+    border-collapse: collapse;
+    font-size: 1.25rem;
+    position: relative;
+    width: 100%;
+    padding: 0.25rem;
+  }
+  
+  /* .navbar a:hover {
+    background-color: #003d00;
+    color: #fff;
+  } */
+  
+  .active {
+    background-color: #0ff00f;
+    color: rgb(10, 72, 243);
+  }
+  
+  .navbar-collapse {
+    float: right;
+  }
+  
+  main {
+    /* background: #fff url("../images/Astronaut.png") no-repeat; */
+    background-size: cover;
+    width: 80vw;
+    margin: 0 auto;
+    position: relative;
+    min-height: 30vh;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    width: 80vw;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+  }
+  
+  .projects {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .col {
+    padding: 15px;
+  }
+  
+  .col-3 {
+    width: 300px;
+    min-height: 300px;
+    margin-right: 3%;
+    /* border: #003d00 1px solid; */
+    margin-bottom: 15px;
+  }
+  
+  .col-5 {
+    width: 400px;
+  }
+  
+  .ml-3,
+  .mr-3 {
+    margin-left: 0.5rem;
+  }
+  
+  .box_shadow {
+    box-shadow: 0px 0px 8px 2px rgb(247, 8, 8);
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top: 40vh;
+    left: 0;
+  }
+  
+  .social a {
+    padding: 0 10px;
+    margin-top: 15px;
+  }
+  
+  .box {
+    /* border: 2px solid brown; */
+    padding: 2rem;
+    max-width: 500px;
+    background: rgba(151, 7, 247, 0.685);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .form-input {
+    width: 100%;
+    min-height: 2rem;
+    margin-top: 1em;
+    padding: 0.15rem 0.25rem;
+    border-radius: 0.25rem;
+    background: hsl(160, 93%, 49%);
+    font-size: 1em;
+    border-color: transparent;
+  }
+  
+  .form-input:focus {
+    outline: none !important;
+    border-color: transparent;
+    box-shadow: 0px 0px 8px 2px rgb(240, 13, 13);
+  }
+  
+  label {
+    font-size: 1em;
+    margin-top: 1em;
+  }
+  
+  .shape {
+    position: absolute;
+    top: -2.5rem;
+    right: 0.5rem;
+  }
+  
